@@ -22,6 +22,11 @@
 	desc = "beep boop borp"
 	icon_state = "black"
 	item_state = "r_hands"
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 
 /obj/item/clothing/gloves/color/black/forensics
@@ -66,6 +71,11 @@
 	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
 	resistance_flags = NONE
 	armor = list(MELEE = 10, BULLET = 15, LASER = 10, ENERGY = 10, BOMB = 10, BIO = 5, RAD = 0, FIRE = 0, ACID = 0)
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/botanic_leather
 	name = "botanist's leather gloves"
@@ -79,6 +89,11 @@
 	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
 	resistance_flags = NONE
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 115, ACID = 20)
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/batmangloves
 	name = "batgloves"
@@ -86,6 +101,11 @@
 	icon_state = "bmgloves"
 	item_state = "bmgloves"
 	item_color="bmgloves"
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/cursedclown
 	name = "cursed white gloves"
@@ -93,6 +113,11 @@
 	icon_state = "latex"
 	item_state = "lgloves"
 	flags = NODROP
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/yellow/stun
 	name = "stun gloves"
@@ -177,6 +202,11 @@
 	desc = "Just looking at these fills you with an urge to beat the shit out of people."
 	var/accepted_intents = list(INTENT_HARM)
 	var/click_speed_modifier = CLICK_CD_RAPID
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/fingerless/rapid/Touch(mob/living/target, proximity = TRUE)
 	var/mob/living/M = loc

@@ -10,6 +10,11 @@
 	permeability_coefficient = 0.05
 	item_color="yellow"
 	resistance_flags = NONE
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/yellow/power
 	var/old_mclick_override
@@ -67,6 +72,11 @@
 	permeability_coefficient = 0.05
 	item_color="yellow"
 	resistance_flags = NONE
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/fyellow/Initialize(mapload)
 	. = ..()
@@ -136,6 +146,11 @@
 	icon_state = "orange"
 	item_state = "orangegloves"
 	item_color="orange"
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/red
 	name = "red gloves"
@@ -143,6 +158,11 @@
 	icon_state = "red"
 	item_state = "redgloves"
 	item_color = "red"
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/red/insulated
 	name = "insulated gloves"
@@ -157,6 +177,11 @@
 	icon_state = "rainbow"
 	item_state = "rainbowgloves"
 	item_color = "rainbow"
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/rainbow/clown
 	item_color = "clown"
@@ -167,6 +192,11 @@
 	icon_state = "blue"
 	item_state = "bluegloves"
 	item_color="blue"
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/purple
 	name = "purple gloves"
@@ -174,6 +204,11 @@
 	icon_state = "purple"
 	item_state = "purplegloves"
 	item_color="purple"
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/green
 	name = "green gloves"
@@ -181,6 +216,11 @@
 	icon_state = "green"
 	item_state = "greengloves"
 	item_color="green"
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/grey
 	name = "grey gloves"
@@ -188,6 +228,11 @@
 	icon_state = "gray"
 	item_state = "graygloves"
 	item_color="grey"
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/grey/rd
 	item_color = "director"			//Exists for washing machines. Is not different from gray gloves in any way.
@@ -201,6 +246,11 @@
 	icon_state = "lightbrown"
 	item_state = "lightbrowngloves"
 	item_color="light brown"
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/brown
 	name = "brown gloves"
@@ -208,6 +258,11 @@
 	icon_state = "brown"
 	item_state = "browngloves"
 	item_color="brown"
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/brown/cargo
 	item_color = "cargo"				//Exists for washing machines. Is not different from brown gloves in any way.
@@ -222,6 +277,11 @@
 	item_color="white"
 	transfer_prints = TRUE
 	resistance_flags = NONE
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/color/latex/nitrile
 	name = "nitrile gloves"
@@ -276,3 +336,8 @@
 	item_state = "furgloves"
 	transfer_prints = TRUE
 	transfer_blood = TRUE
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)

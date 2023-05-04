@@ -5,6 +5,11 @@
 	item_state = "boxing"
 	put_on_delay = 60
 	species_exception = list(/datum/species/golem) // now you too can be a golem boxing champion
+	sprite_sheets = list(
+		"Grey" = 'icons/mob/clothing/species/grey/gloves.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/gloves.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/gloves.dmi'
+		)
 
 /obj/item/clothing/gloves/boxing/green
 	icon_state = "boxinggreen"
